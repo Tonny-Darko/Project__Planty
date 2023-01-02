@@ -1,0 +1,116 @@
+.footer {
+    background-color: #014B40;
+    padding-top: 105px;
+    padding-bottom: 77px;
+}
+.footer__container {
+    border-bottom: 1px solid #E7E7E7;
+    padding-bottom: 60px;
+}
+.footer__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.footer-body__content {
+}
+.footer-body__items {
+    margin-bottom: 16px;
+}
+.footer-items__link {
+}
+.footer-items__img {
+    max-width: 100%;
+}
+.footer-body__text {
+    margin-bottom: 32px;
+    max-width: 446px;
+}
+.footer__text {
+}
+.footer-body__social {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+}
+.footer-social__link {
+    transition: all 0s ease 0s;
+}
+.footer-social__link:hover {
+    transform: scale(1.2);
+}
+.footer-social__img {
+    max-width: 100%;
+}
+.footer-body__menu {
+    display: flex;
+    column-gap: 137px;
+}
+.footer-menu__nav {
+}
+.footer-nav__title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.footer__nav {
+}
+.footer__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.footer__item {
+}
+.footer__item:not(:last-child){
+    margin-bottom: 16px;
+}
+.footer__link {
+    font-size: 16px;
+    line-height: 180%;
+    color: #AFADB5;
+}
+.footer__link:hover{
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+@media(max-width: 1199.98px){
+    .footer {
+        padding-top: 70px;
+        padding-bottom: 60px;
+    }
+    .footer-body__menu {
+        column-gap: 75px;
+    }
+}
+@media(max-width: 990.98px){
+    .footer__body {
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+    }
+    .footer-body__items {
+        text-align: center;
+    }
+    .footer-body__text {
+        max-width: 100%;
+        text-align: center;
+    }
+    .footer-body__social {
+        justify-content: center;
+    }
+}
+@media(max-width: 767.98px){
+    .footer {
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+}
+@media(max-width: 459.98px){
+    .footer-body__menu {
+        flex-direction: column;
+        row-gap: 25px;
+    }
+}

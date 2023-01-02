@@ -1,0 +1,81 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,
+ol,
+li{
+    list-style-type: none;
+}
+img{
+    vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-weight: inherit;
+    font-size: inherit;
+}
+html,
+body{
+    height: 100%;
+    line-height: 1;
+}
+body._lock{
+    overflow: hidden;
+}
+input{
+    outline: none;
+}
+/*========================================*/
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+/*========================================*/
+.page{
+    flex: 1 1 auto;
+}
+.page__main {}
+.page__fresh {}
+.page__gallery {}
+.page__money {}
+.page__product {}
+.page__read {}
+.page__author {}
+.page__email {}
+/*========================================*/
+[class*="__container"]{
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0px 10px;
+}
+@media(max-width: 1199.98px){
+    [class*="__container"]{
+        max-width: 970px;
+    }
+}
+@media(max-width: 990.98px){
+    [class*="__container"]{
+        max-width: 750px;
+    }
+}
+@media(max-width: 767.98px){
+    [class*="__container"]{
+        max-width: none;
+        padding: 0px 10px;
+    }
+}
+/*========================================*/
